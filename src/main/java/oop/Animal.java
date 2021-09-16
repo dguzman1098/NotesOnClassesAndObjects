@@ -3,7 +3,7 @@ package oop;
 public class Animal {
 
     public String name;
-    public String region;
+
 
     public Animal(){
 
@@ -21,6 +21,7 @@ public class Animal {
     }
 
     public void printName(){
+
         System.out.println("Type of animal: " + name);
     }
 
